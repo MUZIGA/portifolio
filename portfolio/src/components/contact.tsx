@@ -20,7 +20,7 @@ const Contact = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
-    // Handle form submission here
+
     console.log("Form submitted:", formData)
     setFormData({ name: "", email: "", message: "" })
   }
@@ -45,13 +45,13 @@ const Contact = () => {
 
           <div className="bg-card/50 border border-border rounded-2xl p-8 text-center hover:border-primary/50 transition-colors">
             <Phone className="w-12 h-12 text-primary mx-auto mb-4" />
-            <h3 className="font-bold mb-2">Phone</h3>
+            <h3 className="font-bold mb-2">Tel:+250 786184438</h3>
             <p className="text-foreground/70">Available on request</p>
           </div>
 
           <div className="bg-card/50 border border-border rounded-2xl p-8 text-center hover:border-primary/50 transition-colors">
             <MapPin className="w-12 h-12 text-primary mx-auto mb-4" />
-            <h3 className="font-bold mb-2">Location</h3>
+            <h3 className="font-bold mb-2">Rwamagana</h3>
             <p className="text-foreground/70">Open to Remote Work</p>
           </div>
         </div>
