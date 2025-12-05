@@ -1,12 +1,12 @@
 import Navigation from "@/components/navigation"
-import Hero from "@/components/hero"
+import Skills from "@/components/skills"
 import Footer from "@/components/footer"
 
-export default function Home() {
+export default function SkillsPage() {
   return (
     <main className="bg-background text-foreground overflow-hidden">
       <Navigation />
-      <Hero />
+      <Skills />
       <Footer />
     </main>
   )
