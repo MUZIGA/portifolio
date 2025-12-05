@@ -39,7 +39,7 @@ const Contact = () => {
             <Mail className="w-12 h-12 text-primary mx-auto mb-4" />
             <h3 className="font-bold mb-2">Email</h3>
             <a href="mailto:judith@example.com" className="text-primary hover:underline">
-              judith@example.com
+              umuzigajudit@gmail.com
             </a>
           </div>
 
@@ -67,7 +67,7 @@ const Contact = () => {
                 onChange={handleChange}
                 required
                 className="w-full bg-input border border-border rounded-lg px-4 py-3 text-foreground placeholder-foreground/50 focus:outline-none focus:ring-2 focus:ring-primary"
-                placeholder="John Doe"
+                placeholder="Muziga judith"
               />
             </div>
 
@@ -80,7 +80,7 @@ const Contact = () => {
                 onChange={handleChange}
                 required
                 className="w-full bg-input border border-border rounded-lg px-4 py-3 text-foreground placeholder-foreground/50 focus:outline-none focus:ring-2 focus:ring-primary"
-                placeholder="john@example.com"
+                placeholder="umuzigajudit@example.com"
               />
             </div>
 

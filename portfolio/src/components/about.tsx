@@ -41,8 +41,8 @@ const About = () => {
               </div>
               <div className="flex items-start gap-3">
                 <span className="text-primary font-bold min-w-fit">📧 Email:</span>
-                <a href="mailto:judith@example.com" className="text-primary hover:underline">
-                  judith@example.com
+                <a href="mailto:umuzigajudit@gmail.com" className="text-primary hover:underline">
+                  umuzigajudit@gmail.com
                 </a>
               </div>
             </div>
@@ -50,11 +50,11 @@ const About = () => {
 
           <div className="grid grid-cols-2 gap-6">
             <div className="bg-card/50 border border-border rounded-2xl p-8 text-center hover:border-primary/50 transition-colors">
-              <div className="text-4xl font-bold text-primary mb-2">10+</div>
+              <div className="text-4xl font-bold text-primary mb-2">23+</div>
               <p className="text-foreground/70 text-sm">Projects Completed</p>
             </div>
             <div className="bg-card/50 border border-border rounded-2xl p-8 text-center hover:border-primary/50 transition-colors">
-              <div className="text-4xl font-bold text-primary mb-2">5+</div>
+              <div className="text-4xl font-bold text-primary mb-2">1+</div>
               <p className="text-foreground/70 text-sm">Years Coding</p>
             </div>
             <div className="bg-card/50 border border-border rounded-2xl p-8 text-center hover:border-primary/50 transition-colors">

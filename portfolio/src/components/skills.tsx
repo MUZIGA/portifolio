@@ -8,11 +8,11 @@ const Skills = () => {
     },
     {
       category: "Backend",
-      skills: ["Node.js", "PostgreSQL", "MongoDB", "RESTful APIs", "Database Design"],
+      skills: ["Node.js", "PostgreSQL", "MongoDB",  "Database Design"],
     },
     {
       category: "Tools & Testing",
-      skills: ["Git", "Jest", "React Testing Library", "Vercel", "CI/CD", "VS Code"],
+      skills: ["Git", "Jest", "React Testing Library", "Vercel",  "VS Code"],
     },
   ]
 
