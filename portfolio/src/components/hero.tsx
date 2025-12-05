@@ -68,6 +68,11 @@ const Hero = () => {
                 Get in Touch
               </Button>
             </Link>
+            <Link href="/cv">
+              <Button className="border-2 border-slate-400 text-slate-600 hover:bg-slate-50 font-semibold bg-transparent">
+                View CV
+              </Button>
+            </Link>
           </div>
         </div>
 

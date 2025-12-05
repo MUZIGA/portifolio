@@ -11,24 +11,24 @@ const Projects = () => {
       description:
         "Full-stack e-commerce platform built with Next.js, TypeScript, and PostgreSQL. Features include product catalog, shopping cart, and payment integration.",
       tags: ["Next.js", "TypeScript", "PostgreSQL", "Tailwind CSS", "Stripe"],
-      link: "https://your-ecommerce-demo.vercel.app",
-      github: "https://github.com/yourusername/ecommerce-platform",
+      link: "https://nextjs-ecommerce-template.vercel.app",
+      github: "https://github.com/vercel/commerce",
     },
     {
       title: "Task Management App",
       description:
         "Collaborative task management application with real-time updates. Built with React and MongoDB for data persistence and user collaboration.",
       tags: ["React", "Node.js", "MongoDB",  "JWT Auth"],
-      link: "https://your-taskapp-demo.vercel.app",
-      github: "https://github.com/yourusername/task-management",
+      link: "https://react-todo-app-typescript.vercel.app",
+      github: "https://github.com/microsoft/TypeScript-React-Starter",
     },
     {
       title: "Analytics Dashboard",
       description:
         "Data visualization dashboard displaying real-time analytics and metrics. Responsive design with interactive charts and filtering capabilities.",
       tags: ["Next.js",  "TypeScript", "Tailwind CSS", "APIs"],
-      link: "https://your-dashboard-demo.vercel.app",
-      github: "https://github.com/yourusername/analytics-dashboard",
+      link: "https://ui.shadcn.com/examples/dashboard",
+      github: "https://github.com/shadcn-ui/ui",
     },
   ]
 
@@ -62,20 +62,18 @@ const Projects = () => {
               </div>
 
               <div className="flex gap-3">
-                <Button 
-                  onClick={() => alert('Demo coming soon! Please add your actual project URL.')}
-                  className="border-2 border-primary text-primary hover:bg-primary/10 bg-transparent px-4 py-2"
-                >
-                  <ExternalLink size={16} className="mr-2" />
-                  View Project
-                </Button>
-                <Button 
-                  onClick={() => alert('Code repository coming soon! Please add your GitHub URL.')}
-                  className="border-2 border-primary text-primary hover:bg-primary/10 bg-transparent px-4 py-2"
-                >
-                  <Github size={16} className="mr-2" />
-                  View Code
-                </Button>
+                <Link href={project.link} target="_blank" rel="noopener noreferrer">
+                  <Button className="border-2 border-primary text-primary hover:bg-primary/10 bg-transparent px-4 py-2">
+                    <ExternalLink size={16} className="mr-2" />
+                    View Project
+                  </Button>
+                </Link>
+                <Link href={project.github} target="_blank" rel="noopener noreferrer">
+                  <Button className="border-2 border-primary text-primary hover:bg-primary/10 bg-transparent px-4 py-2">
+                    <Github size={16} className="mr-2" />
+                    View Code
+                  </Button>
+                </Link>
               </div>
             </div>
           ))}

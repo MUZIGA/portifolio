@@ -38,20 +38,22 @@ const Contact = () => {
           <div className="bg-card/50 border border-border rounded-2xl p-8 text-center hover:border-primary/50 transition-colors">
             <Mail className="w-12 h-12 text-primary mx-auto mb-4" />
             <h3 className="font-bold mb-2">Email</h3>
-            <a href="mailto:judith@example.com" className="text-primary hover:underline">
+            <a href="mailto:umuzigajudit@gmail.com" className="text-primary hover:underline">
               umuzigajudit@gmail.com
             </a>
           </div>
 
           <div className="bg-card/50 border border-border rounded-2xl p-8 text-center hover:border-primary/50 transition-colors">
             <Phone className="w-12 h-12 text-primary mx-auto mb-4" />
-            <h3 className="font-bold mb-2">Tel:+250 786184438</h3>
-            <p className="text-foreground/70">Available on request</p>
+            <h3 className="font-bold mb-2">Phone</h3>
+            <a href="tel:+250786184438" className="text-primary hover:underline">
+              +250 786 184 438
+            </a>
           </div>
 
           <div className="bg-card/50 border border-border rounded-2xl p-8 text-center hover:border-primary/50 transition-colors">
             <MapPin className="w-12 h-12 text-primary mx-auto mb-4" />
-            <h3 className="font-bold mb-2">Rwamagana</h3>
+            <h3 className="font-bold mb-2">Location</h3>
             <p className="text-foreground/70">Open to Remote Work</p>
           </div>
         </div>
@@ -67,7 +69,7 @@ const Contact = () => {
                 onChange={handleChange}
                 required
                 className="w-full bg-input border border-border rounded-lg px-4 py-3 text-foreground placeholder-foreground/50 focus:outline-none focus:ring-2 focus:ring-primary"
-                placeholder="Muziga judith"
+                placeholder="John Doe"
               />
             </div>
 
@@ -80,7 +82,7 @@ const Contact = () => {
                 onChange={handleChange}
                 required
                 className="w-full bg-input border border-border rounded-lg px-4 py-3 text-foreground placeholder-foreground/50 focus:outline-none focus:ring-2 focus:ring-primary"
-                placeholder="umuzigajudit@example.com"
+                placeholder="john@example.com"
               />
             </div>
 
