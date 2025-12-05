@@ -174,6 +174,7 @@ The portfolio uses a professional blue-400 theme with consistent styling:
 1. Push your code to GitHub
 2. Connect your repository to Vercel
 3. Deploy automatically
+4. Deployed link : https://portifolio-nine-alpha-46.vercel.app/
 
 ### Other Platforms
 
