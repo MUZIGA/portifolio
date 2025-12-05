@@ -11,7 +11,7 @@ export default function CVPage() {
       <Navigation />
       <section className="py-20 px-4 sm:px-6 lg:px-8 mt-16 bg-gradient-to-br from-background via-card/20 to-background">
         <div className="max-w-4xl mx-auto">
-          {/* Header Card */}
+        
           <div className="bg-gradient-to-r from-primary/10 to-accent/10 border border-primary/20 rounded-3xl p-12 mb-12 text-center relative overflow-hidden">
             <div className="absolute top-0 right-0 w-32 h-32 bg-primary/5 rounded-full blur-2xl"></div>
             <div className="absolute bottom-0 left-0 w-24 h-24 bg-accent/5 rounded-full blur-xl"></div>
@@ -45,7 +45,7 @@ export default function CVPage() {
             </div>
           </div>
 
-          {/* Professional Summary */}
+        
           <div className="mb-12">
             <div className="bg-card/50 border border-border rounded-2xl p-8 hover:border-primary/50 transition-all">
               <h2 className="text-3xl font-bold mb-6 text-primary flex items-center gap-3">
@@ -62,7 +62,7 @@ export default function CVPage() {
             </div>
           </div>
 
-          {/* Experience */}
+          
           <div className="mb-12">
             <h2 className="text-3xl font-bold mb-8 text-primary flex items-center gap-3">
               <div className="w-8 h-8 bg-primary/20 rounded-lg flex items-center justify-center">
@@ -75,7 +75,7 @@ export default function CVPage() {
               <div className="bg-gradient-to-r from-primary/5 to-transparent border-l-4 border-primary rounded-r-2xl p-8 hover:shadow-lg transition-all">
                 <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
                   <h3 className="text-2xl font-bold text-foreground">Frontend Developer</h3>
-                  <span className="bg-primary/10 text-primary px-4 py-2 rounded-full text-sm font-medium">2023 - Present</span>
+                  <span className="bg-primary/10 text-primary px-4 py-2 rounded-full text-sm font-medium">2025- Present</span>
                 </div>
                 <p className="text-primary font-semibold mb-4">Freelance</p>
                 <div className="grid gap-3">
@@ -101,7 +101,7 @@ export default function CVPage() {
               <div className="bg-gradient-to-r from-accent/5 to-transparent border-l-4 border-accent rounded-r-2xl p-8 hover:shadow-lg transition-all">
                 <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
                   <h3 className="text-2xl font-bold text-foreground">Barista</h3>
-                  <span className="bg-accent/10 text-accent px-4 py-2 rounded-full text-sm font-medium">2022 - 2023</span>
+                  <span className="bg-accent/10 text-accent px-4 py-2 rounded-full text-sm font-medium">2019 - 2021</span>
                 </div>
                 <p className="text-accent font-semibold mb-4">Coffee Shop</p>
                 <div className="grid gap-3">
@@ -122,7 +122,6 @@ export default function CVPage() {
             </div>
           </div>
 
-          {/* Skills */}
           <div className="mb-8">
             <h2 className="text-2xl font-bold mb-4 text-primary">Technical Skills</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -149,7 +148,7 @@ export default function CVPage() {
             </div>
           </div>
 
-          {/* Projects */}
+        
           <div className="mb-8">
             <h2 className="text-2xl font-bold mb-4 text-primary">Key Projects</h2>
             <div className="space-y-4">
@@ -184,8 +183,6 @@ export default function CVPage() {
               </div>
             </div>
           </div>
-
-          {/* Education */}
           <div className="mb-8">
             <h2 className="text-2xl font-bold mb-4 text-primary">Education & Interests</h2>
             <div className="bg-card/50 border border-border rounded-lg p-4">
